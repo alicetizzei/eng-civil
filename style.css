@@ -9,6 +9,7 @@
 body {
     font-family: 'Chakra Petch', sans-serif;
     color: var(--cor-principal);
+    background-color: #f7f8fa;
 }
 
 h1, h2, h5 {
@@ -22,9 +23,24 @@ h1, h2, h5 {
 }
 
 a, .btn-link:hover {
-    color: var(--cor-principal)
+    color: var(--cor-principal);
 }
 
 a:hover {
+    color: var(--cor-destaque);
+}
+
+footer {
+    background-color: #e2e6ea;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+footer a:hover {
     color: var(--cor-destaque);
 }
