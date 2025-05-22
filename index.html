@@ -1,0 +1,122 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Meu portfólio - Engenharia Civil</title>
+</head>
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar de João" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou João Silva</p>
+        <h1>Engenheiro Civil</h1>
+        <p>Sou Engenheiro Civil especializado em projetos estruturais e infraestrutura urbana.</p>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de construção de ponte">
+                    <div class="card-body">
+                        <h5 class="card-title">Ponte sobre o Rio X</h5>
+                        <p class="card-text">Projeto de construção de uma ponte em concreto armado sobre o Rio X, com foco em segurança e durabilidade.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de reforma de prédio histórico">
+                    <div class="card-body">
+                        <h5 class="card-title">Reforma do Edifício Histórico Y</h5>
+                        <p class="card-text">Reforma estrutural de um prédio histórico para adequação às normas de segurança, mantendo a estética original.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de urbanização de bairro">
+                    <div class="card-body">
+                        <h5 class="card-title">Urbanização do Bairro Z</h5>
+                        <p class="card-text">Projeto de infraestrutura urbana, incluindo pavimentação, saneamento básico e drenagem para o Bairro Z.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ponte sobre o Rio X</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto consiste na construção de uma ponte sobre o Rio X, com 150 metros de extensão. Utilizamos concreto armado para garantir a resistência à ação de intempéries e cargas pesadas. O projeto levou em consideração a segurança dos pedestres e motoristas, além de ter um impacto ambiental mínimo.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100" alt="Imagem do projeto de ponte">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/joao/ponte-rio-x">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Reforma do Edifício Histórico Y</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto envolveu a reforma estrutural do Edifício Histórico Y, mantendo a fachada original e aplicando técnicas de reforço estrutural para garantir sua estabilidade. A obra foi realizada com materiais sustentáveis, respeitando as normas de preservação histórica e garantindo a acessibilidade no prédio.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100" alt="Imagem do projeto de reforma de prédio histórico">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/joao/reforma-edificio-historico-y">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Urbanização do Bairro Z</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto envolveu a urbanização completa do Bairro Z, com foco em infraestrutura básica: pavimentação das ruas, construção de sistemas de drenagem, e instalação de redes de abastecimento de água e esgoto. O objetivo foi melhorar a qualidade de vida dos moradores e facilitar o acesso à áreas comerciais e serviços públicos.</p>
+                    <img src="img/projeto-3.png" class="img-fluid w-100" alt="Imagem do projeto de urbanização de bairro">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/joao/urbanizacao-bairro-z">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/joao">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por João Silva</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
